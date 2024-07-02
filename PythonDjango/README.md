@@ -8,6 +8,10 @@ Use venv:
 `python3 -m venv django`
 `source django/bin/activate`
 
+`pip install django`
+
+`pip freeze > requirements.txt`
+
 ## Prepare Docker env
 
 `docker build -t django-docker-app .`
