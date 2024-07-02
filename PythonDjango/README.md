@@ -4,6 +4,10 @@
 
 Ensure that proper versions of requirements are in place
 
+Use venv:
+`python3 -m venv django`
+`source django/bin/activate`
+
 ## Prepare Docker env
 
 `docker build -t django-docker-app .`
