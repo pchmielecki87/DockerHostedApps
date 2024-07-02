@@ -20,3 +20,4 @@ Ensure that proper versions of requirements are in place
 ## Verify
 
 `http://localhost:6000`
+`curl http://localhost:6000`
