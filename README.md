@@ -1,6 +1,8 @@
 # DockerHostedApps
 
 Docker Hosted Apps:
-.NET
+ASP.NET Core Blazor WebAssembly
+.NET Core
 Java
-Python
+Python Django
+Python Flask
