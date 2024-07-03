@@ -17,3 +17,8 @@ dotnet publish -c Release -o out
 ## (optional) Use Docker Compose
 
 `docker-compose up -d`
+
+## Stop and remove container
+
+`docker stop <container_name>`
+`docker rm <container_name>`
