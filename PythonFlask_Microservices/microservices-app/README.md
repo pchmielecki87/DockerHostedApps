@@ -77,3 +77,13 @@ Navigate to svc3 folder
 Access the UserService at `http://localhost:5011/users`.
 Access the ProductService at `http://localhost:5012/products`.
 Create an order in OrderService using `POST /orders` with a JSON body like `{"user_id": 1, "product_id": 1}`.
+
+## Docker Compose to expose services
+
+Stop services
+`docker stop p3-microservice-users-service`
+`docker stop p3-microservice-products-service`
+`docker stop p3-microservice-order-service`
+
+Run Docker-Compose
+`docker-compose up`

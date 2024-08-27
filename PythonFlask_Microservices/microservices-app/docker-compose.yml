@@ -1,0 +1,19 @@
+version: '3'
+services:
+  user-service:
+    build: ./UserService
+    ports:
+      - "5011:5011"
+
+  product-service:
+    build: ./ProductService
+    ports:
+      - "5012:5012"
+
+  order-service:
+    build: ./OrderService
+    ports:
+      - "5013:5013"
+    depends_on:
+      - user-service
+      - product-service
