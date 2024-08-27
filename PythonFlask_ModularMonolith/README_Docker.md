@@ -4,11 +4,11 @@ Works locally, as well as in Docker.
 
 ## Prepare Docker env
 
-`docker build -t p3mm2 . --no-cache`
-`docker run -d -p 5001:5000 --name p3mm2 py3modularmono2`
+`docker build -t p3mm . --no-cache`
+`docker run -d -p 5001:5000 --name py3modularmono p3mm`
 
 ## Verify
 
 `http://localhost:5001`
 `curl http://localhost:5001`
-`docker logs py3modularmono2`
+`docker logs py3modularmono`
