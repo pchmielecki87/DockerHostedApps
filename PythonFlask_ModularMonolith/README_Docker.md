@@ -1,6 +1,6 @@
 # General
 
-Works locally, Docker need to be fixed
+Works locally, as well as in Docker.
 
 ## Prepare Docker env
 
