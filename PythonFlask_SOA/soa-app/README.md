@@ -1,4 +1,4 @@
-# Python Django
+# Python Flask SOA
 
 ## Prapare app
 
