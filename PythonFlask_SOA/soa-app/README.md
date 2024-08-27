@@ -3,13 +3,10 @@
 ## Prapare app
 
 Use venv:
-`python3 -m venv flask`
-`source flask/bin/activate`
+`python3 -m venv flask-soa`
+`source flask-soa/bin/activate`
 
-`pip install Flask`
-
-`pip freeze > requirements.txt`
-
+`pip install -r requirements.txt`
 Ensure that proper versions of requirements are in place
 
 ## Prepare Docker env
