@@ -1,0 +1,28 @@
+version: '3'
+services:
+  rabbitmq:
+    image: 'rabbitmq:3-management'
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+
+  producer_service:
+    build: ./producer_service
+    ports:
+      - "5023:5023"
+    depends_on:
+      - rabbitmq
+
+  consumer_service_1:
+    build: ./consumer_service_1
+    ports:
+      - "5021:5021"
+    depends_on:
+      - rabbitmq
+
+  consumer_service_2:
+    build: ./consumer_service_2
+    ports:
+      - "5022:5022"
+    depends_on:
+      - rabbitmq
