@@ -86,4 +86,4 @@ Stop services
 `docker stop p3-microservice-order-service`
 
 Run Docker-Compose
-`docker-compose up`
+`docker compose up`
