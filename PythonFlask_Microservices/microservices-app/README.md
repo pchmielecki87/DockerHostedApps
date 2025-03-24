@@ -3,7 +3,7 @@
 ## Prapare svc1 Users
 
 ### Prerequisites svc1
-
+`cd UserService`
 Use venv:
 `python3 -m venv svc1-venv`
 `source svc1-venv/bin/activate`
@@ -27,7 +27,7 @@ Navigate to svc1 folder
 ## Prapare svc2 Products
 
 ### Prerequisites svc2
-
+`cd ProductService`
 Use venv:
 `python3 -m venv svc2-venv`
 `source svc2-venv/bin/activate`
@@ -51,7 +51,7 @@ Navigate to svc2 folder
 ## Prapare svc3 Orders
 
 ### Prerequisites svc3
-
+`cd OrderService`
 Use venv:
 `python3 -m venv svc3-venv`
 `source svc3-venv/bin/activate`
