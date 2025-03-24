@@ -2,6 +2,10 @@
 
 Works locally, as well as in Docker.
 
+Use venv:
+`python3 -m venv mono-venv`
+`source mono-venv/bin/activate`
+
 ## Prepare Docker env
 
 `docker build -t p3mm . --no-cache`
